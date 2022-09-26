@@ -1,5 +1,8 @@
 .App {
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +38,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+.button__donate{
+  background-color: rgb(20, 224, 20);
+  border: 1px solid #fafafa;
+  padding: 15px 20px ;
+  color: #111111;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+}
+.button__donate:hover{
+  background-color: rgb(13, 236, 13);
+}
+.button__withdraw{
+  background-color: rgb(224, 163, 20);
+  border: 1px solid #fafafa;
+  padding: 15px 20px ;
+  color: #111111;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+}
+.button__withdraw:hover{
+  background-color: rgb(236, 202, 13);
+}
+.text{
+  font-weight: 600;
+  font-size: 25px;
+}
+.flex{
+  font-size: 20px;
 }
